@@ -119,7 +119,6 @@ function showLove(){
 }
 </script>
 
-</script>
 
 </body>
 </html>
