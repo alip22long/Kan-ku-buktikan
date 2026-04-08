@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="ms">
 <head>
 <meta charset="UTF-8">
@@ -119,8 +119,6 @@ function showLove(){
 }
 </script>
 
-</body>
-</html>}
 </script>
 
 </body>
