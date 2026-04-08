@@ -50,6 +50,11 @@ button{
     background:white;
     color:#ff4b7d;
     font-weight:bold;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
 }
 
 .photo{
@@ -58,6 +63,12 @@ button{
     border-radius:20px;
     margin-top:20px;
     box-shadow:0 0 15px rgba(255,255,255,0.6);
+    animation:fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+    from{opacity:0; transform:translateY(20px);}
+    to{opacity:1; transform:translateY(0);}
 }
 
 .heart{
@@ -97,8 +108,8 @@ button{
 
     <button onclick="showLove()">Klik sini sayang 💌</button>
 
-    <img id="photo1" class="photo" src="gambar1.jpg" alt="gambar kita">
-    <img id="photo2" class="photo" src="gambar2.jpg" alt="gambar kita">
+    <img id="photo1" class="photo" src="IMG-20260325-WA0065.jpg" alt="gambar pertama">
+    <img id="photo2" class="photo" src="IMG-20260325-WA0067.jpg" alt="gambar kedua">
 </div>
 
 <script>
@@ -106,6 +117,10 @@ function showLove(){
     document.getElementById("photo1").style.display="block";
     document.getElementById("photo2").style.display="block";
 }
+</script>
+
+</body>
+</html>}
 </script>
 
 </body>
