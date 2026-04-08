@@ -120,3 +120,13 @@ function showLove(){
 </script>
 
 </body>
+</html></div>
+
+<script>
+function showLove(){
+    document.getElementById("photo1").style.display="block";
+    document.getElementById("photo2").style.display="block";
+}
+</script>
+
+</body>
